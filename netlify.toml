@@ -1,0 +1,11 @@
+# EOTWSG Media Library — no build step. Static gallery at the repo root.
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[build.environment]
+  # @netlify/identity requires Node >= 22.12
+  NODE_VERSION = "22"
+
+[functions]
+  node_bundler = "esbuild"
