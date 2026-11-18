@@ -14,14 +14,15 @@ image repo.
 | Folder | What's in it | Files |
 |---|---|---:|
 | `covers/` | The 12 Gumroad pack covers (PKG-001–PKG-012), 1376×768 PNG, photorealistic style | 12 |
-| `website/` | eotwsg.com site assets: hero + section art, pack cards (pkg-001–011, pkg-013), posters, favicon | 63 |
+| `website/` | eotwsg.com site assets: hero + section art, pack cards (pkg-001–011, pkg-013), posters, favicon | 72 |
 | `website/assets-new/` | User-supplied + alternate site art variants (tracked in the website repo under `assets-new/`) | 22 |
 | `website/app-img/` | Field Library app image variants that differ from the site versions (incl. the app's pkg-012 + pkg-013 cards) | 9 |
 | `website/app-icons/` | Field Library PWA icons (192 / 512 / 512-maskable) | 3 |
 | `gumroad/` | Gumroad store imagery: 12 interior-spread thumbnails (1200×1200) + the live Off-Grid Battery Revival cover | 13 |
-| `blog/` | Blog images — empty for now (Blogger hosts its own images; file new ones here) | 0 |
+| `blog/` | Blog post images (onsite migration) | 41 |
 | `newsletter/` | Grid-Down Weekly issue images, one dated folder per issue (hero + item art) | 14 |
-| **Total** | | **136** |
+| `illustrations/` | Book illustrations — Quick Share batch, Nov 18 2026 (see `illustrations/INDEX.md` for the catalog + flags) | 182 |
+| **Total** | | **368** |
 
 ## CDN URLs (jsDelivr)
 

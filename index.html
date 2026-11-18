@@ -184,6 +184,7 @@
           <option value="blog">blog/</option>
           <option value="newsletter">newsletter/</option>
           <option value="covers">covers/</option>
+          <option value="illustrations">illustrations/</option>
         </select>
         <input id="uploadFiles" type="file" accept=".png,.jpg,.jpeg,.webp,.gif,.svg,.avif" multiple>
         <button class="btn" id="uploadBtn" type="button">Upload</button>
@@ -224,7 +225,7 @@ import { login, logout, getUser, handleAuthCallback, acceptInvite, requestPasswo
 
 const REPO = 'autosponsor/eotwsg-media-library'
 const BRANCH = 'main'
-const FOLDERS = ['website', 'gumroad', 'blog', 'newsletter', 'covers']
+const FOLDERS = ['website', 'gumroad', 'blog', 'newsletter', 'covers', 'illustrations']
 const IMG_RE = /\.(png|jpe?g|webp|gif|svg|avif)$/i
 const MAX_BYTES = 4 * 1024 * 1024
 
